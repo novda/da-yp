@@ -1,0 +1,38 @@
+.Apple-tree {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+
+
+  &-garden {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 32px;
+    border: 1px solid rgba(209,210,214,0.5);
+    border-radius: 8px;
+
+    width: 764px;
+    height: 573px;
+
+    &-bound {
+      width: 110px;
+      height: 110px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+
+      border: 1px solid rgb(214, 213, 213);
+      margin: 5px;
+    }
+  }
+
+
+}
