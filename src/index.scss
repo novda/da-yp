@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'YS Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/YS Text-Medium.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'YS Sans';
+    font-style: normal;
+    font-weight: bold;
+    src: url("./fonts/YS Text-Bold.ttf") format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: "YS Sans";
+  font-style: normal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

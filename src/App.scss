@@ -6,7 +6,6 @@
   width: 100%;
   margin-top: 100px;
 
-
   &-garden {
     display: flex;
     flex-wrap: wrap;
@@ -15,7 +14,7 @@
 
     box-sizing: border-box;
     padding: 32px;
-    border: 1px solid rgba(209,210,214,0.5);
+    border: 1px solid rgba(209, 210, 214, 0.5);
     border-radius: 8px;
 
     width: 764px;
@@ -33,6 +32,4 @@
       margin: 5px;
     }
   }
-
-
 }
